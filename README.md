@@ -1,6 +1,6 @@
 # 🚨 NullBeacon
 ![Logo](docs/Logo.png)
-A full-featured, open-source WiFi Deauther & Scanner using the **Realtek RTL8720DN (BW16)** module – with a slick Python **TUI (Text UI)** and **RGB status LEDs**.
+A full-featured, open-source WiFi Deauther & Scanner using the **Realtek RTL8720DN (BW16)** module – with a slick Python **TUI (Terminal UI)** and **RGB status LEDs**.
 
 > 🧑‍💻 **Note:** This is my **first open-source project** – I'm happy to receive any kind of feedback, suggestions, or constructive criticism!
 
@@ -34,6 +34,7 @@ A full-featured, open-source WiFi Deauther & Scanner using the **Realtek RTL8720
 ```
 bw16-deauther/
 ├── firmware/ # Arduino-based BW16 firmware (C++)
+├── hardware/ # Hardware for the Project (Case)
 ├── tui/ # Python terminal interface (TUI)
 ├── docs/ # Images, diagrams, wiring info
 ├── LICENSE
@@ -73,18 +74,17 @@ python main.py
 ```
 ⌨️ TUI Shortcuts
 Key	Action
-s	Scan networks
-a	Start deauth attack
-x	Stop attack
-c	Set config
-+	Select all
--	Deselect all
-q	Quit the UI
-␣	(Space) toggle selection
-
-🖼 Screenshot
+- `s`	Scan networks
+- `a`	Start deauth attack
+- `x`	Stop attack
+- `c`	Set config
+- `+`	Select all
+- `-`	Deselect all
+- `q`	Quit the UI
+- `␣`	(Space) toggle selection
 
 ❤️ Contributing
+
 Pull requests welcome!
 
 📝 License
