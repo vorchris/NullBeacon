@@ -88,6 +88,6 @@ q	Quit the UI
 Pull requests welcome!
 
 📝 License
-MIT – do whatever you want, just give credit
+GPLv3
 
 Thanks to https://github.com/tesa-klebeband/RTL8720dn-Deauther  for most of the original firmware code
