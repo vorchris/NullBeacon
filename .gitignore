@@ -13,6 +13,7 @@ dist/
 build/
 *.exe
 *.spec
+.venv/
 
 # Arduino
 *.bin
@@ -36,6 +37,5 @@ build/
 # IDEs
 .vscode/
 .idea/
-.venv/
 *.DS_Store
 Thumbs.db
