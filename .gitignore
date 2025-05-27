@@ -1,0 +1,40 @@
+
+---
+
+## 🛡️ `.gitignore` – für Arduino + Python-Projekt
+
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+*.swp
+.env
+dist/
+build/
+*.exe
+*.spec
+
+# Arduino
+*.bin
+*.elf
+*.hex
+*.map
+*.o
+*.d
+*.a
+*.sdf
+*.suo
+*.ncb
+*.dmp
+*.dep
+*.cmd
+*.out
+*.log
+*.eep
+*.lss
+
+# IDEs
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
