@@ -4,7 +4,7 @@ A full-featured, open-source WiFi Deauther & Scanner using the **Realtek RTL8720
 
 > 🧑‍💻 **Note:** This is my **first open-source project** – I'm happy to receive any kind of feedback, suggestions, or constructive criticism!
 
-![TUI Screenshot](docs/screenshot.png)
+![TUI Screenshot](docs/Screenshot_Windows.png)
 
 ---
 

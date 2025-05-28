@@ -66,7 +66,7 @@ class DeautherApp(npyscreen.NPSAppManaged):
     def onStart(self):
         self.serial_handler = SerialHandler(SERIAL_PORT, BAUD_RATE)
         self.networks = []
-        self.addForm("MAIN", MainForm, name="BW16 Deauther Controller")
+        self.addForm("MAIN", MainForm, name="NullBeacon")
 
     def onCleanExit(self):
         self.serial_handler.close()
