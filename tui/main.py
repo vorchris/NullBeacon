@@ -216,10 +216,8 @@ class MainForm(npyscreen.FormBaseNew):
     def quit_app(self, *args, **kwargs):
         self.status.value = "Exiting..."
         self.status.display()
-        time.sleep(0.5)
-        self.parentApp.setNextForm(None)
+        self.parentApp.switchForm(None)
         self.editing = False
-
 
 if __name__ == "__main__":
     try:
