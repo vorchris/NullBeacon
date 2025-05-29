@@ -4,7 +4,7 @@ A full-featured, open-source WiFi Deauther & Scanner using the **Realtek RTL8720
 
 > 🧑‍💻 **Note:** This is my **first open-source project** – I'm happy to receive any kind of feedback, suggestions, or constructive criticism!
 
-![TUI Screenshot](docs/screenshot.png)
+![TUI Screenshot Windows](docs/Screenshot_Windows.png)
 
 ---
 
@@ -32,11 +32,11 @@ A full-featured, open-source WiFi Deauther & Scanner using the **Realtek RTL8720
 
 ## 📦 Project Structure
 ```
-bw16-deauther/
+NullBeacon/
 ├── firmware/ # Arduino-based BW16 firmware (C++)
 ├── hardware/ # Hardware for the Project (Case)
 ├── tui/ # Python terminal interface (TUI)
-├── docs/ # Images, diagrams, wiring info
+├── docs/ # Images
 ├── LICENSE
 ├── README.md
 └── .gitignore
@@ -61,7 +61,7 @@ pip install -r requirements.txt
 ## 🚀 Quick Start
 
 📡 Upload Firmware
-Open firmware/main.cpp in Arduino IDE
+Open firmware/firmware.ino in Arduino IDE
 
 Select board: Ai-Thinker BW16
 
@@ -88,6 +88,7 @@ Key	Action
 Pull requests welcome!
 
 📝 License
+
 GPLv3
 
-Thanks to https://github.com/tesa-klebeband/RTL8720dn-Deauther  for most of the original firmware code
+Thanks to https://github.com/tesa-klebeband/RTL8720dn-Deauther for most of the original firmware code

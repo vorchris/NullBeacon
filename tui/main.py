@@ -66,7 +66,7 @@ class DeautherApp(npyscreen.NPSAppManaged):
     def onStart(self):
         self.serial_handler = SerialHandler(SERIAL_PORT, BAUD_RATE)
         self.networks = []
-        self.addForm("MAIN", MainForm, name="BW16 Deauther Controller")
+        self.addForm("MAIN", MainForm, name="NullBeacon")
 
     def onCleanExit(self):
         self.serial_handler.close()
@@ -216,10 +216,8 @@ class MainForm(npyscreen.FormBaseNew):
     def quit_app(self, *args, **kwargs):
         self.status.value = "Exiting..."
         self.status.display()
-        time.sleep(0.5)
-        self.parentApp.setNextForm(None)
+        self.parentApp.switchForm(None)
         self.editing = False
-
 
 if __name__ == "__main__":
     try:
