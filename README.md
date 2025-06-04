@@ -1,10 +1,10 @@
 # 🚨 NullBeacon
-![Logo](docs/Logo.png)
+![Logo](docs/logo.png)
 A full-featured, open-source WiFi Deauther & Scanner using the **Realtek RTL8720DN (BW16)** module – with a slick Python **TUI (Terminal UI)** and **RGB status LEDs**.
 
 > 🧑‍💻 **Note:** This is my **first open-source project** – I'm happy to receive any kind of feedback, suggestions, or constructive criticism!
 
-![TUI Screenshot Windows](docs/Screenshot_Windows.png)
+![TUI Screenshot Windows](docs/screenshot_windows.png)
 
 ---
 
@@ -82,6 +82,25 @@ Key	Action
 - `-`	Deselect all
 - `q`	Quit the UI
 - `␣`	(Space) toggle selection
+
+## 🧰 Hardware Requirements
+To assemble and use this project, you will need the following hardware components:
+
+### Fasteners and Inserts:
+- 4 × M3 threaded inserts for 3D printing
+- 4 × M2 threaded inserts for 3D printing
+- 4 × M3 × 8 mm screws
+- 4 × M2 × 3.5 mm screws
+
+### Electronics:
+- 1 × BW16 Microcontroller
+- 1 × U.FL to SMA Adapter
+
+### Case:
+This case features a 3D-printed bottom and a laser-cut PMMA top.
+
+![Case Closed](docs/case_closed.jpg)
+![Case Open](docs/case_open.jpg)
 
 ❤️ Contributing
 
